@@ -29,6 +29,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		 getSupportActionBar().hide();
 		setContentView(R.layout.activity_main);
 	
 		// Get reference to views
